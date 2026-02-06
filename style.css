@@ -466,7 +466,7 @@ nav ul li a:hover::after {
     gap: 18px;
 }
 
-.contact-item { 
+.contact-item{ 
     display: flex;
     align-items: center;
     gap: 14px;
@@ -624,7 +624,7 @@ form textarea::placeholder {
 /* back to top arrow */
 #backToTop {
     position: fixed;
-    bottom: 30px;
+    bottom: 15px;
     right: 30px;
     z-index: 1000;
     background: transparent;
@@ -687,6 +687,9 @@ form textarea::placeholder {
 .about-col-2 {
     flex-basis: 100%;
 }
+.about-col-1 {
+    margin-top: 0;
+}
 /* contact */
   #contact .row {
     grid-template-columns: 1fr;
@@ -710,7 +713,7 @@ nav {
     font-size: 30px;
 }
 
-  nav ul {
+nav ul {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -719,22 +722,47 @@ nav {
     padding: 0;
 }
 
-nav ul li { margin: 0; }
-nav ul li a { font-size: 16px; }
+nav ul li { 
+    margin: 0;
+}
+
+nav ul li a { 
+    font-size: 16px; 
+}
 /* headings */
-.sub-title { font-size: 36px; text-align: center; }
-.my-skills-title { font-size: 30px; }
+.sub-title { 
+    font-size: 36px; 
+    text-align: center; 
+}
+
+.my-skills-title { 
+    font-size: 30px; 
+}
 /* icons/cards */
-.tech-icon { width: 65px; height: 65px; font-size: 28px; }
-.work h3 { font-size: 20px; }
-.work p  { font-size: 15px; }
-.social-buttons { justify-content: center; flex-wrap: wrap; }
+.tech-icon { 
+    width: 65px; 
+    height: 65px; 
+    font-size: 28px; 
+}
+
+.work h3 { 
+    font-size: 20px; 
+}
+
+.work p  { 
+    font-size: 15px; 
+}
+
+.social-buttons { 
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
 }
 /* phones */
 @media (max-width: 480px) {
 #header {
     height: auto;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 20px;
 }
 
@@ -760,9 +788,23 @@ nav ul li a { font-size: 16px; }
     justify-content: center;
 }
 
-.logo { font-size: 26px; }
-.sub-title { font-size: 30px; }
-.my-skills-title { font-size: 26px; }
-.header-image img { max-width: 360px; }
+.logo { 
+    font-size: 26px; 
+}
 
+.sub-title { 
+    font-size: 30px;
+}
+
+.my-skills-title { 
+    font-size: 26px; 
+}
+
+.header-image img { 
+    max-width: 360px; 
+}
+.copyright {
+    margin-top: 0;
+    padding: 16px 0;
+  }
 }
